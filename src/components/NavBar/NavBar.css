@@ -1,0 +1,19 @@
+.barra-de-navegacion {
+    margin: 25px;
+    text-align: center;
+}
+
+.barra-de-navegacion nav {
+    display: flex;
+    align-items: center;
+}
+.barra-de-navegacion nav h3{
+    padding-top:5px
+}
+
+.barra-de-navegacion nav h3 a {
+    margin: 15px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Rock Salt", cursive; 
+}

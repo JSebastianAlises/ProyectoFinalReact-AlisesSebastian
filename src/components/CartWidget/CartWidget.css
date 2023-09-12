@@ -1,0 +1,22 @@
+.carrito-contenedor {
+    margin: 0 15px;
+    display: block;
+    position: absolute;
+    right: 10px;
+}
+
+.carrito-imagen {
+    height: 50px;
+    border-radius: 5px;
+}
+
+.carrito-numero {
+    color: white;
+    background-color: #d45522;
+    border-radius: 100%;
+    width: 20px;
+    line-height: 20px;
+    position: absolute;
+    left: 65%;
+    top: 70%;
+}

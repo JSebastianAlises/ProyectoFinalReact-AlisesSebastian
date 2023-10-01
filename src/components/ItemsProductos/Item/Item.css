@@ -1,0 +1,26 @@
+.tarjeta-de-producto{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 230px;
+    min-height: 50px ;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(209, 206, 206);
+    border-radius: 10px;
+}
+
+.tarjeta-de-producto h2 {
+    min-height: 60px;
+    overflow-wrap: anywhere;
+}
+
+.tarjeta-de-producto img {
+    width: 200px;
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+.tarjeta-de-producto img:hover {
+    transform: scale(1.1);
+}

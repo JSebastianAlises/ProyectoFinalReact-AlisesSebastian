@@ -1,12 +1,13 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import NavBar from './components/NavBar/navBar';
-import ContenedorDeTarjetas from "./components/ItemListContainer/ContenedorDeTarjetas";
+import ItemListContainer from "./components/ItemsProductos/ItemListContainer/ItemListContainer"
+import CarritoDeCompras from "./components/CarritoDeCompras/CarritoDeCompras"
+import ItemDetailContainer from "./components/ItemsProductos/ItemDetailContainer/ItemDetailContainer"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
     return (
         <div className="App">
-            <header>
                 <div class="logo">
                     <img class="logo-superior" src={require("./imagenes/descarga.png")} alt="logo de la renga"/>
                 </div>
@@ -16,11 +17,15 @@ function App() {
                 <h2>
                     Los Mismos De Siempre
                 </h2>
-                <NavBar />
-            </header>
-            <main>
-                <ContenedorDeTarjetas />
-            </main>
+                <BrowserRouter>
+                    <NavBar/>
+                    <Routes>
+                        <Route path="/" element={<ItemListContainer />} />
+                        <Route path="/categorias/:categoriaId" element={<ItemListContainer />} />
+                        <Route exact path="/productos/:productoId" element={<ItemDetailContainer />} />
+                        <Route path="/carritodecompras" element={<CarritoDeCompras />} />
+                    </Routes>
+                </BrowserRouter>
         </div>
     );
 }

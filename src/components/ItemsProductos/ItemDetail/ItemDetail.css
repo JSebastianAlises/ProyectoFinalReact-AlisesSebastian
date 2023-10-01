@@ -1,0 +1,36 @@
+.tarjeta-de-detalles{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 300px;
+    min-height: 50px ;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(209, 206, 206);
+    border-radius: 10px;
+}
+
+.tarjeta-de-detalles h2 {
+    min-height: 60px;
+    overflow-wrap: anywhere;
+}
+
+.tarjeta-de-detalles img {
+    width: 280px;
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+.tarjeta-de-detalles img:hover {
+    transform: scale(1.04);
+}
+
+.link-tienda{
+    margin-bottom: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 10px;
+}

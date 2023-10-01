@@ -7,13 +7,21 @@
     display: flex;
     align-items: center;
 }
-.barra-de-navegacion nav h3{
-    padding-top:5px
+.links-de-navegacion{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 600px;
 }
 
-.barra-de-navegacion nav h3 a {
-    margin: 15px;
+.links-de-navegacion a {
+    margin: 10px;
     text-decoration: none;
     color: #000000;
     font-family: "Rock Salt", cursive; 
+}
+
+.active {
+    background-color: rgb(108, 103, 112);
+    width: 150px;
+    border-radius: 20px;
 }

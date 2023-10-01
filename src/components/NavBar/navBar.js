@@ -6,12 +6,12 @@ function NavBar (){
     return (
         <div className="barra-de-navegacion">
             <nav>
-                <h3>
+                <div className="links-de-navegacion">
                     <NavLink activeClassName to={"/"} >Productos</NavLink>
-                    <NavLink to={`/categorias/ropa`}>Ropa</NavLink>
-                    <NavLink to={`/categorias/discos`}>discos</NavLink> 
-                    <NavLink activeClassName to={"/carritoDeCompras"} >Carrito de compras</NavLink>
-                </h3>
+                    <NavLink activeClassName to={`/categorias/ropa`}>Ropa</NavLink>
+                    <NavLink activeClassName to={`/categorias/discos`}>Discos</NavLink> 
+                    <NavLink activeClassName to={"/carritoDeCompras"} >Carrito</NavLink>
+                </div>
                 <CartWidget/>
             </nav>
         </div>

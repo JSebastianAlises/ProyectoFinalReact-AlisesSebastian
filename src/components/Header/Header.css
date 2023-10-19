@@ -1,0 +1,25 @@
+h1 {
+    font-size:25px;
+    text-align: center; 
+    padding: 5px;
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+  }
+  
+h2 {
+    font-size:20px;
+    text-align: center; 
+    padding: 5px;
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo-superior {
+    margin: 15px;
+    border-radius: 10%;
+    width: 100px;
+}

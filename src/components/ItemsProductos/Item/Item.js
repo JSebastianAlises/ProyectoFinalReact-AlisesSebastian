@@ -1,15 +1,14 @@
 import "./Item.css"
 import BotonDetalles from "../../Botones/BotonDetalles/BotonDetalles"
 
-function Item ({titulo, tipo, img, productoId}) {
+function Item ({titulo, img, productoId}) {
 
     return(
         <div className="tarjeta-de-producto">
             <h2>
                 {titulo}
-                {tipo}
             </h2>
-            <img src={require(`../../../imagenes/Productos/${img}.jpg`)} alt={titulo}/>
+            <img src={img} alt={titulo}/>
             <BotonDetalles productoId={productoId}/>
         </div>
     )

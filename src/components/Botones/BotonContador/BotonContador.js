@@ -1,9 +1,9 @@
 import { useState } from "react"
 import "./BotonContador.css"
 
-function BotonContador({ inicial, stock, onAgregar }) {
+function BotonContador({ stock, onAgregar }) {
 
-    const [cantidad, setCantidad] = useState (inicial)
+    const [cantidad, setCantidad] = useState (1)
 
     const incremento = () => {
         if (cantidad < stock) {

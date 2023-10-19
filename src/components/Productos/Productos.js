@@ -22,23 +22,23 @@ const productos = [
 
     {
         id: 14,
-        tipo: "buzo1", 
+        titulo: "BUZO1", 
         precio: 1000,
         stock: 3,
         categoria: "ropa",
         img: "buzo1"
     },
-    { id: 15, tipo: "buzo2", precio: 1000, stock: 3, categoria: "ropa", img: "buzo2" },
-    { id: 16, tipo: "buzo3", precio: 1000, stock: 3, categoria: "ropa", img: "buzo3" },
-    { id: 17, tipo: "buzo4", precio: 1000, stock: 3, categoria: "ropa", img: "buzo4" },
-    { id: 18, tipo: "gorra1", precio: 1000, stock: 3, categoria: "ropa", img: "gorra1" },
-    { id: 19, tipo: "gorra2", precio: 1000, stock: 3, categoria: "ropa", img: "gorra2" },
-    { id: 21, tipo: "gorra3", precio: 1000, stock: 3, categoria: "ropa", img: "gorra3" },
-    { id: 22, tipo: "gorra4", precio: 1000, stock: 3, categoria: "ropa", img: "gorra4" },
-    { id: 23, tipo: "remera1", precio: 1000, stock: 3, categoria: "ropa", img: "remera1" },
-    { id: 24, tipo: "remera2", precio: 1000, stock: 3, categoria: "ropa", img: "remera2" },
-    { id: 25, tipo: "remera3", precio: 1000, stock: 3, categoria: "ropa", img: "remera3" },
-    { id: 26, tipo: "remera4", precio: 1000, stock: 3, categoria: "ropa", img: "remera4" }
+    { id: 15, titulo: "BUZO2", precio: 1000, stock: 3, categoria: "ropa", img: "buzo2" },
+    { id: 16, titulo: "BUZO3", precio: 1000, stock: 3, categoria: "ropa", img: "buzo3" },
+    { id: 17, titulo: "BUZO4", precio: 1000, stock: 3, categoria: "ropa", img: "buzo4" },
+    { id: 18, titulo: "GORRA1", precio: 1000, stock: 3, categoria: "ropa", img: "gorra1" },
+    { id: 19, titulo: "GORRA2", precio: 1000, stock: 3, categoria: "ropa", img: "gorra2" },
+    { id: 21, titulo: "GORRA3", precio: 1000, stock: 3, categoria: "ropa", img: "gorra3" },
+    { id: 22, titulo: "GORRA4", precio: 1000, stock: 3, categoria: "ropa", img: "gorra4" },
+    { id: 23, titulo: "REMERA1", precio: 1000, stock: 3, categoria: "ropa", img: "remera1" },
+    { id: 24, titulo: "REMERA2", precio: 1000, stock: 3, categoria: "ropa", img: "remera2" },
+    { id: 25, titulo: "REMERA3", precio: 1000, stock: 3, categoria: "ropa", img: "remera3" },
+    { id: 26, titulo: "REMERA4", precio: 1000, stock: 3, categoria: "ropa", img: "remera4" }
 ]
 
 export const getProductos = () => {

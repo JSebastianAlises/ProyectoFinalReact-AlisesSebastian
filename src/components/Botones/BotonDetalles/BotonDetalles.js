@@ -1,5 +1,5 @@
 import "./BotonDetalles.css"
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function BotonDetalles ({ productoId }) {
     return (

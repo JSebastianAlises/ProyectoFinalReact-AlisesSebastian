@@ -20,7 +20,7 @@ Esté proyecto es un sitio web de comercio online, dedicado a la venta de produc
 - Abre la terminal en tu computadora.
 - Navega hasta el directorio en el que deseas clonar el repositorio.
 - Utiliza el siguiente comando para clonar el repositorio:
-- git clone URL_DEL_REPOSITORIO
+- git clone https://github.com/JSebastianAlises/ProyectoFinalReact-AlisesSebastian.git
 
 ## Dependencias usadas y como instalarlas.
 - En primera instancia, deberás abrir la terminal en tu proyecto

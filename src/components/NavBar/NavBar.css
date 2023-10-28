@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
 }
+
 .links-de-navegacion{
     display: flex;
     justify-content: flex-start;
@@ -16,12 +17,12 @@
 .links-de-navegacion a {
     margin: 10px;
     text-decoration: none;
-    color: #000000;
+    color: #212730;
     font-family: "Rock Salt", cursive; 
 }
 
 .active {
-    background-color: rgb(108, 103, 112);
+    background: linear-gradient(to right, #ebeef3, #adbbcc);
     width: 150px;
     border-radius: 20px;
 }

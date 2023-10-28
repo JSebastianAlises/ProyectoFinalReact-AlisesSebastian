@@ -1,10 +1,11 @@
 import "./Header.css"
+import logo from "../../imagenes/logo.png"
 
 function Header () {
     return (
         <div>
             <div class="logo">
-                <img class="logo-superior" src={require("../../imagenes/descarga.png")} alt="logo de la renga"/>
+                <img class="logo-superior" src={logo} alt="logo de la renga"/>
             </div>
             <h1>
                 LA RENGA

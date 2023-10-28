@@ -8,11 +8,13 @@
 .carrito-imagen {
     height: 50px;
     border-radius: 5px;
+    border: 2px solid #6a7fc1;
 }
 
 .carrito-numero {
-    color: white;
-    background-color: #d45522;
+    color: #d3dae4;
+    background-color: #3f4f65;
+    border: 1px solid #6a7fc1;
     border-radius: 100%;
     width: 20px;
     line-height: 20px;

@@ -1,6 +1,5 @@
 .tarjeta-de-producto{
-    background-color: rgb(255, 255, 255);
-    font-weight: bold;
+    background: linear-gradient(to right, #ebeef3, #adbbcc);
     width: 230px;
     min-height: 50px ;
     margin: 15px;
@@ -17,10 +16,11 @@
 
 .tarjeta-de-producto img {
     width: 200px;
+    aspect-ratio: 1;
     transition: transform 0.5s;
     border-radius: 10px;
 }
 
 .tarjeta-de-producto img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }

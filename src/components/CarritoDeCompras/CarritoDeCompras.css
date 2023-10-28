@@ -1,70 +1,17 @@
-.contenedor-tarjeta-carrito{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.tarjeta-carrito{
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    font-weight: bold;
-    width: 95%;
-    min-height: 50px ;
-    margin: 15px;
-    padding: 10px;
-    border: 2px solid rgb(209, 206, 206);
-    border-radius: 10px;
-}
-
-.tarjeta-carrito h2 {
-    margin: auto;
-    font-size: 15px;
-    width: 150px;
-    overflow-wrap: anywhere;
-}
-
-.tarjeta-carrito img {
-    width: 100px;
-    transition: transform 0.5s;
-    border-radius: 10px;
-}
-
-.tarjeta-carrito p{
-    margin: auto;
-}
-
-.tarjeta-carrito button{
-    margin: auto;
-    width: 30px;
-    font-size: 15px;
-    background-color: rgb(255, 62, 14);
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-.carrito-botones-disco {
-    display: flex;
-    margin: 5px;
-    width: 100px;
-}
-
 .carrito-totales{
     display: flex;
     flex-direction: column;
 }
 
-.carrito-limpiar{
+.botones-carrito{
     display: flex;
     justify-content: center;
-
+    padding: 20px;
+    text-decoration: none;
 }
 
-.carrito-limpiar button{
-    width: 100px;
-    font-size: 15px;
-    background-color: rgb(255, 240, 240);
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 10px;
+.botones-carrito button{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
 }

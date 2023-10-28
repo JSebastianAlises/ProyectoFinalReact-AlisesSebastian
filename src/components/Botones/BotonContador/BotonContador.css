@@ -8,24 +8,13 @@
 .contenedor-de-botones button {
     margin: 5px;
     width: 24px;
-    font-size: 15px;
-    background-color: aliceblue;
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 10px;
 }
 
 .contenedor-de-botones p {
     width: 24px;
-    font-weight: bold;
 }
 
 .boton-agregar button{
     margin: 5px;
     width: 100px;
-    font-size: 15px;
-    background-color: aliceblue;
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 10px;
 }

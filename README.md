@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# TIENDA DE LOS MISMOS DE SIEMPRE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
+Esté proyecto es un sitio web de comercio online, dedicado a la venta de productos relacionados a La Renga. Aquí podrás encontrar una amplia gama de productos, incluyendo ropa y albumes
 
-## Available Scripts
+## Características
+- Navegación intuitiva y amigable para el usuario.
+- Catálogo de productos detallado y bien organizado.
+- Proceso de compra sencillo y seguro.
 
-In the project directory, you can run:
+## Tecnologías Utilizadas
+- HTML
+- CSS
+- JavaScript
+- React 
+- Firebase
 
-### `npm start`
+## Instalación
+### Clona este repositorio. 
+- Abre la terminal en tu computadora.
+- Navega hasta el directorio en el que deseas clonar el repositorio.
+- Utiliza el siguiente comando para clonar el repositorio:
+- git clone URL_DEL_REPOSITORIO
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Dependencias usadas y como instalarlas.
+- En primera instancia, deberás abrir la terminal en tu proyecto
+- Luego, según la dependencia usada, podras instalar siguiendo los pasos que te indico a continuación:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `react`
+Para instalar React, deberás ingresar en la terminal
+- ### npx create-react-app my-app
+Luego, dirigirte a la carpeta 
+- ### cd my-app
+Y ya podras inicializar la misma con 
+- ### npm start
 
-### `npm test`
+### `react-router-dom`
+Para instalarlo, deberas ingresar en la terminal
+- ### npm install react-router-dom
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `sweetalert2`
+Para instalarlo, deberas ingresar en la terminal
+- ### npm install sweetalert2
 
-### `npm run build`
+### `firebase`
+Para instalarlo, deberas ingresar en la terminal
+- ### npm install firebase
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contacto
+Si tienes preguntas o comentarios, no dudes en contactarme a alisessebastian@gmail.com
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

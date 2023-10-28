@@ -1,58 +1,57 @@
 import "./ItemDetail.css"
 import BotonContador from "../../Botones/BotonContador/BotonContador"
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useContext, useState } from "react";
 import { CartContext } from "../../../context/CartContext";
 
-function ItemDetail ({producto, productoId}) { /* Tuve que traer como parametro PRODUCTOID */
+function ItemDetail ({producto, productoId}) { 
 
     const { agregarProducto } = useContext (CartContext);    
 
+    /* CAMBIA AGREGAR CARRITO POR FINALIZAR COMPRA */
     const [mostrarFinalizarCompra, setMostrarFinalizarCompra] = useState(false);
 
-    const handleAgregarProducto = (cantidad) => {
+    /* TRAE LA FUNCION QUE AGREGA EL PRODUCTO AL CARRITO Y CAMBIA EL ESTADO PARA QUE APAREZCA FINALIZAR COMPRA */
+    const agregarProductoAlCarrito = (cantidad) => {
         agregarProducto({ titulo, precio, img, stock, productoId, cantidad });
-        setMostrarFinalizarCompra(true); // Actualiza el estado a true después de agregar el producto
+        setMostrarFinalizarCompra(true); 
     };
-
-    if (!producto) {
-        return <h2>Cargando producto...</h2>;
-    }
 
     const { titulo, img, precio, stock } = producto;
 
     return (
         <>
             <div className="tarjeta-de-detalles">    
-            <h2>
-                {titulo}
-            </h2>
-            <img src={img} alt={titulo}/>
-            <p>
-                $ {precio}
-            </p>
-            <p>
-                {stock}
-            </p>
+                <h2>
+                    {titulo}
+                </h2>
+                <img src={img} alt={titulo}/>
                 {mostrarFinalizarCompra ? (
-                    <NavLink to={`/carritodecompras`}>
-                        <button className="link-tienda">
-                            Finalizar compra
-                        </button>
-                    </NavLink>
+                    <div>
+                        <NavLink to={`/carritodecompras`}>
+                            <button className="link-tienda">
+                                Finalizar compra
+                            </button>
+                        </NavLink>
+                    </div>
                 ) : (
-                    <BotonContador 
-                        stock={stock} 
-                        onAgregar={(cantidad) => handleAgregarProducto(cantidad)} 
-                    /> 
+                    <div>
+                        <p>
+                            $ {precio}
+                        </p>
+                        <BotonContador 
+                            stock={stock} 
+                            onAgregar={(cantidad) => agregarProductoAlCarrito(cantidad)} 
+                        /> 
+                    </div>
                 )}
             </div>
             <div>
-            <NavLink to={`/`}>
-                <button className="link-tienda">
-                    Volver a la tienda
-                </button>
-            </NavLink>
+                <NavLink to={`/`}>
+                    <button className="link-tienda">
+                        Volver a la tienda
+                    </button>
+                </NavLink>
             </div>
         </>
     )

@@ -5,12 +5,7 @@ import { CartContext } from "../../context/CartContext";
 
 function CartWidget () {
 
-    const {carrito} = useContext(CartContext);
-
-    /* Función para informar la cantidad de productos en el carrito */
-    const cantidad = carrito.reduce ((acc, curr) => {    
-        return acc + curr.cantidad
-    },0);  
+    const { cantidadTotal } = useContext(CartContext);
 
     return (
         <div className="carrito-contenedor">
@@ -18,7 +13,7 @@ function CartWidget () {
                 <img className="carrito-imagen" src={imagenCarrito} alt="Imagen del carrito" />
                 <div>
                     <span className="carrito-numero">
-                        {cantidad > 0 ? cantidad : 0}                       
+                        {cantidadTotal > 0 ? cantidadTotal : 0}                       
                     </span>
                 </div>
             </a>

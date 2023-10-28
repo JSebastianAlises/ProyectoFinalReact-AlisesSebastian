@@ -1,0 +1,102 @@
+.contenedor-compra-iniciada{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 15px auto ;
+    background: linear-gradient(to right, #4d617c, #3f4f65);
+    border-radius: 10px;
+    border: 2px solid #6a7fc1;
+}
+.contenedor-compra-iniciada h2{
+    color: #d3dae4;
+}
+
+.contenedor-compra-iniciada div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 15px;
+}
+
+.contenedor-compra-iniciada label{
+    margin-left: 10px;
+    color: #d3dae4;
+    font-family: 'Rock Salt', cursive;
+}
+.contenedor-compra-iniciada input{
+    border: 2px solid #6a7fc1;
+    padding: 10px;
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.finalizar-compra{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+}
+
+.finalizar-compra button{
+    width: 150px;
+    height: 50px;
+    margin: auto;
+}
+
+.contenedor-compra-finalizada {
+    text-align: center;
+    margin: auto;
+}
+
+.id-de-compra {
+    padding: 20px;
+}
+.id-de-compra span{
+    margin: 5px;
+    background: linear-gradient(to right, #ebeef3, #adbbcc);
+}
+
+.contenedor-productos-comprados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta-producto-comprado{
+    background: linear-gradient(to right, #ebeef3, #adbbcc);
+    width: 230px;
+    min-height: 50px ;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid rgb(209, 206, 206);
+    border-radius: 10px;
+}
+
+.tarjeta-producto-comprado img {
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 10px;
+}
+
+.precio-final {
+    padding: 20px;
+    margin: auto auto 20px;
+    width: 20%;
+    background: linear-gradient(to right, #ebeef3, #adbbcc);
+    border: 2px solid rgb(209, 206, 206);
+    border-radius: 10px;
+}
+
+.my-popup-class {
+    background-color: #808080; 
+    color: #fff; 
+  }
+  
+.my-content-class {
+    color: #fff; 
+}
+
+.my-confirm-button-class {
+    background-color: #d45522; 
+}
+  
